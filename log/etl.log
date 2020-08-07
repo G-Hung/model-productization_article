@@ -1,0 +1,4 @@
+2020-08-06 11:48:39,111 : INFO : utility : Finished logger configuration!
+2020-08-06 11:48:39,111 : INFO : utility : Load config from config.yml
+2020-08-06 11:48:39,115 : INFO : utility : config: {'raw_data_file': 'data/winequality.csv', 'processed_path': 'data', 'test_size': 0.2, 'random_state': 42}
+2020-08-06 11:48:39,115 : INFO : utility : -------------------Start data transformation-------------------
