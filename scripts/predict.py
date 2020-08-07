@@ -4,7 +4,7 @@
 This script is used to do prediction based on trained model
 
 Usage:
-    python3 predict.py config.yml
+    python3 ./scripts/predict.py
 
 """
 
