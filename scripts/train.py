@@ -4,7 +4,7 @@
 This script is used to train and export ML model according to config
 
 Usage:
-    python3 train.py config.yml
+    python3 ./scripts/train.py
 
 """
 

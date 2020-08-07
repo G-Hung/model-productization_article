@@ -5,7 +5,7 @@ This script is used to run convert the raw data to train and test data
 It is designed to be idempotent [stateless transformation]
 
 Usage:
-    python3 etl.py config.yml
+    python3 ./scripts/etl.py
 
 """
 

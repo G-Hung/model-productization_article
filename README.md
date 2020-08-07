@@ -2,7 +2,7 @@
 
 
 # Objective
-This repo is the code for my article in Medium that demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
+This repo is the code for [my article in Medium](https://medium.com/@geoffreyhung/from-jupyter-notebook-to-sc-582978d3c0c) that demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
 
 
 # High level topics
