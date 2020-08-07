@@ -1,0 +1,13 @@
+2020-08-06 11:34:14,494 : INFO : utility : Finished logger configuration!
+2020-08-06 11:34:14,495 : INFO : utility : Load config from config.yml
+2020-08-06 11:34:14,497 : INFO : utility : config: {'processed_train': '../data/train.csv', 'ensemble_model': 'RandomForestClassifier', 'model_config': {'n_estimators': 300}, 'model_path': '../model/model.pkl'}
+2020-08-06 11:34:14,497 : INFO : utility : -------------------Load the processed data-------------------
+2020-08-06 11:34:14,503 : INFO : utility : cols: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+2020-08-06 11:34:14,503 : INFO : utility : X: (1279, 11)
+2020-08-06 11:34:14,504 : INFO : utility : y: (1279,)
+2020-08-06 11:34:14,504 : INFO : utility : -------------------Initiate model-------------------
+2020-08-06 11:34:14,504 : INFO : utility : Train model using RandomForestClassifier, {'n_estimators': 300}
+2020-08-06 11:34:15,263 : INFO : utility : Train score: 1.0
+2020-08-06 11:34:18,725 : INFO : utility : CV score: 0.9038388480392158
+2020-08-06 11:34:18,725 : INFO : utility : -------------------Persist model-------------------
+2020-08-06 11:34:18,748 : INFO : utility : Persisted model to ../model/model.pkl

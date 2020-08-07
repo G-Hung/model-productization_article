@@ -1,0 +1,20 @@
+2020-08-06 11:34:24,394 : INFO : utility : Finished logger configuration!
+2020-08-06 11:34:24,394 : INFO : utility : Load config from config.yml
+2020-08-06 11:34:24,397 : INFO : utility : config: {'model_path': '../model/model.pkl', 'processed_test': '../data/test.csv', 'predicted_file': '../data/predict.csv', 'export_result': True}
+2020-08-06 11:34:24,397 : INFO : utility : -------------------Load the trained model-------------------
+2020-08-06 11:34:24,418 : INFO : utility : Load the test data from ../data/test.csv
+2020-08-06 11:34:24,423 : INFO : utility : cols: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality']
+2020-08-06 11:34:24,423 : INFO : utility : X: (320, 11)
+2020-08-06 11:34:24,423 : INFO : utility : y: (320,)
+2020-08-06 11:34:24,423 : INFO : utility : -------------------Predict and evaluate-------------------
+2020-08-06 11:34:24,463 : INFO : utility : Classification report: 
+               precision    recall  f1-score   support
+
+           0       0.92      0.97      0.94       273
+           1       0.75      0.51      0.61        47
+
+    accuracy                           0.90       320
+   macro avg       0.84      0.74      0.78       320
+weighted avg       0.90      0.90      0.90       320
+
+2020-08-06 11:34:24,469 : INFO : utility : Export prediction to : ../data/predict.csv
