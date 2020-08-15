@@ -7,7 +7,6 @@ Usage:
     python3 ./scripts/train.py
 
 """
-
 import logging
 from pathlib import Path
 
@@ -38,7 +37,7 @@ def train(config_file):
     ##################
     # configure logger
     ##################
-    logger = set_logger("../log/train.log")
+    logger = set_logger("./log/train.log")
 
     ##################
     # Load config from config file
