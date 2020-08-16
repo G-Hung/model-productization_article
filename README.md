@@ -1,13 +1,14 @@
 # My Medium articles for model productization
 [From Jupyter Notebook to Scripts](#from-jupyter-notebook-to-scripts)
+: [Article link](https://towardsdatascience.com/from-jupyter-notebook-to-sc-582978d3c0c)
 
-[From Scripts to Prediction API](#from-scripts-to-prediction-api)
+[From Scripts to Prediction API](#from-scripts-to-prediction-api)  : [Article link](https://towardsdatascience.com/from-scripts-to-prediction-api-2372c95fb7c7)
 
 
 # From Jupyter Notebook to Scripts
 [Back to top](#my-medium-articles-for-model-productization)
 
-[My article in Medium](https://medium.com/@geoffreyhung/from-jupyter-notebook-to-sc-582978d3c0c) with code in this repo demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
+[My article in Medium](https://towardsdatascience.com/from-jupyter-notebook-to-sc-582978d3c0c) with code in this repo demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
 
 
 ## High level topics
@@ -103,7 +104,7 @@ conda remove –name YOU_CHANGE_THIS –all
 # From Scripts to Prediction API 
 [Back to top](#my-medium-articles-for-model-productization)
 
-This article, we discuss how to utilize the models we have last time to create a prediction API using [Fast API](https://fastapi.tiangolo.com/).
+[This article](https://towardsdatascience.com/from-scripts-to-prediction-api-2372c95fb7c7), we discuss how to utilize the models we have last time to create a prediction API using [Fast API](https://fastapi.tiangolo.com/).
 
 ## High level topics
 ```
