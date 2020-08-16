@@ -13,3 +13,6 @@ uvicorn==0.11.8
 # idk why, an error comes out when I run pytest, installing chardet fixes the issue
 # https://github.com/HazyResearch/pdftotree/issues/47
 chardet==3.0.4
+
+# for parallel pytest
+pytest-xdist==2.0.0
