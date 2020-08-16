@@ -7,7 +7,6 @@ Usage:
     python3 ./scripts/predict.py
 
 """
-
 import logging
 from pathlib import Path
 
@@ -39,7 +38,7 @@ def predict(config_file):
     ##################
     # configure logger
     ##################
-    logger = set_logger("../log/predict.log")
+    logger = set_logger("./log/predict.log")
 
     ##################
     # Load config from config file

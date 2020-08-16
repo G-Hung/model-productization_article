@@ -7,11 +7,17 @@ etl:
 train:
   processed_train: "data/train.csv" 
   ensemble_model: "RandomForestClassifier"
-  model_config: {n_estimators: 300, random_state: 42}
-  model_path: "model/model.pkl"
+  model_config: {n_estimators: 100, random_state: 42}
+  model_path: "model/rf_model.pkl"
+
+# train:
+#   processed_train: "data/train.csv" 
+#   ensemble_model: "GradientBoostingClassifier"
+#   model_config: {n_estimators: 100, random_state: 42}
+#   model_path: "model/gb_model.pkl"
 
 predict:
-  model_path: "model/model.pkl"
+  model_path: "model/rf_model.pkl"
   processed_test: "data/test.csv"
   predicted_file: "data/predict.csv"
   export_result: True

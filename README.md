@@ -1,11 +1,16 @@
-# My Medium article for model productization
+# My Medium articles for model productization
+[From Jupyter Notebook to Scripts](#from-jupyter-notebook-to-scripts)
+
+[From Scripts to Prediction API](#from-scripts-to-prediction-api)
 
 
-# Objective
-This repo is the code for [my article in Medium](https://medium.com/@geoffreyhung/from-jupyter-notebook-to-sc-582978d3c0c) that demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
+# From Jupyter Notebook to Scripts
+[Back to top](#my-medium-articles-for-model-productization)
+
+[My article in Medium](https://medium.com/@geoffreyhung/from-jupyter-notebook-to-sc-582978d3c0c) with code in this repo demonstrates how to convert Jupyter Notebook to scripts together with some engineering practices, we only surfaced with the basics and want to show the benefits quickly!
 
 
-# High level topics
+## High level topics
 
     a. Why scripts instead of Jupyter notebook
     b. Conversion from ipynb to .py
@@ -46,7 +51,7 @@ Code structure tree, hope this can help you to understand how the codes evolve
     └── utility.py
 ```
 
-# Setup
+## Setup
 
 1. Git Clone the repo
 ```
@@ -93,4 +98,34 @@ pytest
 ```
 conda deactivate
 conda remove –name YOU_CHANGE_THIS –all
+```
+
+# From Scripts to Prediction API 
+[Back to top](#my-medium-articles-for-model-productization)
+
+This article, we discuss how to utilize the models we have last time to create a prediction API using [Fast API](https://fastapi.tiangolo.com/).
+
+## High level topics
+```
+a. Update conda env [requirements.txt]
+b. Brainstorm pseudocode and convert to code [FastAPI, uvicorn]
+c. Utilize API [cURL, requests, Postman]
+d. Talk about Auto-generated documents by FastAPI
+e. Some pytest techniques [parallel, parameterized, -v]
+```
+
+## Setup
+You can reuse the steps above for Git Clone, Conda env, autoformat.sh or pytest. The only different thing is step 4, instead of running the script, we will launch a API server!
+
+To launch the API server, set this up the environment first:
+
+```
+conda create - name YOU_CHANGE_THIS python=3.7 -y
+conda activate YOU_CHANGE_THIS
+pip install –r requirements.txt
+```
+
+Then run:
+```
+uvicorn prediction_api.main:app --reload
 ```

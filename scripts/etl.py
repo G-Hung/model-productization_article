@@ -36,7 +36,7 @@ def etl(config_file):
     ##################
     # configure logger
     ##################
-    logger = set_logger("../log/etl.log")
+    logger = set_logger("./log/etl.log")
 
     ##################
     # Load config from config file
