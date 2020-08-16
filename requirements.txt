@@ -5,6 +5,7 @@ scikit-learn==0.22.1
 black==19.10b0
 isort==4.3.21
 PyYAML==5.2
+requests==2.20.1
 
 # for FastAPI
 fastapi==0.61.0
@@ -15,4 +16,4 @@ uvicorn==0.11.8
 chardet==3.0.4
 
 # for parallel pytest
-pytest-xdist==2.0.0
+# pytest-xdist==2.0.0
