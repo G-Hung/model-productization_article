@@ -111,11 +111,49 @@ a. Update conda env [requirements.txt]
 b. Brainstorm pseudocode and convert to code [FastAPI, uvicorn]
 c. Utilize API [cURL, requests, Postman]
 d. Talk about Auto-generated documents by FastAPI
-e. Some pytest techniques [parallel, parameterized, -v]
+e. Something about pytest [parallel, parameterized, -v]
 ```
 
 ## Setup
 You can reuse the steps above for Git Clone, Conda env, autoformat.sh or pytest. The only different thing is step 4, instead of running the script, we will launch a API server!
+
+Similar to last time, we include the file tree below and annotate the related files
+```
+.
+├── README.md
+├── autoformat.sh
+├── data
+│   ├── predict.csv
+│   ├── test.csv
+│   ├── train.csv
+│   └── winequality.csv
+├── log
+│   ├── etl.log
+│   ├── predict.log
+│   └── train.log
+├── model
+│   ├── gb_model.pkl
+│   └── rf_model.pkl
+├── notebook
+│   ├── prediction-of-quality-of-wine.ipynb
+│   └── prediction_API_test.ipynb              [c]
+├── prediction_api
+│   ├── __init__.py
+│   ├── api_utility.py                         [b]
+│   ├── main.py                                [b]
+│   ├── mock_data.py                           [e]
+│   ├── test_api_utility.py                    [e]
+│   └── test_main.py                           [e]
+├── requirements.txt                           [a]
+└── scripts
+    ├── config.yml
+    ├── etl.py
+    ├── predict.py
+    ├── test_train.py
+    ├── test_utility.py
+    ├── train.py
+    └── utility.py
+```
 
 To launch the API server, set this up the environment first:
 
